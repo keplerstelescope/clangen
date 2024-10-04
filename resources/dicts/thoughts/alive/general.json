@@ -966,7 +966,8 @@
             "Is always five steps ahead of {PRONOUN/m_c/poss} Clanmates",
             "Knows exactly how to get {PRONOUN/m_c/self} out of a mess {PRONOUN/m_c/subject} orchestrated",
             "Grooms {PRONOUN/m_c/poss} pelt to <i>just</i> this side of perfection",
-            "Got a Clanmate to do {PRONOUN/m_c/poss} work for {PRONOUN/m_c/object}"
+            "Got a Clanmate to do {PRONOUN/m_c/poss} work for {PRONOUN/m_c/object}",
+            "Knows a secret way into and out of camp"
         ],
         "main_trait_constraint": [
             "cunning"
@@ -1054,7 +1055,8 @@
             "Playfully flirts with cats from the other Clans at the Gathering",
             "Dazzles {PRONOUN/m_c/poss} Clanmates with {PRONOUN/m_c/poss} excellent skills",
             "Spends a long time grooming {PRONOUN/m_c/self} to catch as much attention as possible",
-            "Bumped into another cat and had to start {PRONOUN/m_c/poss} grooming routine all over again"
+            "Bumped into another cat and has to start {PRONOUN/m_c/poss} grooming routine all over again",
+            "Does everything {PRONOUN/m_c/subject} can to dazzle {PRONOUN/m_c/poss} Clanmates"
         ],
         "main_trait_constraint": [
             "flamboyant"
@@ -1088,10 +1090,36 @@
             "Can't stand {PRONOUN/m_c/poss} Clanmates today",
             "Is looking extra grumpy today",
             "Is trying {PRONOUN/m_c/poss} hardest to avoid being bothered by {PRONOUN/m_c/poss} Clanmates",
-            "Doesn't understand why everyone else is so cheery"
+            "Doesn't understand why everyone else is so cheery",
+            "Rolls {PRONOUN/m_c/poss} eyes at a Clanmate",
+            "Is bickering with r_c",
+            "Snaps at r_c",
+            "Snaps at r_c... then apologizes",
+            "Is venting to a Clanmate",
+            "Flatly shoots down a Clanmate's hopeful statement",
+            "Curls up in {PRONOUN/m_c/poss} nest after a long day"
         ],
         "main_trait_constraint": [
             "grumpy"
+        ],
+        "random_living_status": [
+            "living"
+        ]
+    },
+    {
+        "id": "grumpy_gen_to_medcat",
+        "thoughts": [
+            "Begrudgingly thanks r_c for {PRONOUN/m_c/poss} care"
+        ],
+        "main_trait_constraint": [
+            "grumpy"
+        ],
+        "random_status_constraint": [
+            "medicine cat apprentice",
+            "medicine cat"
+        ],
+        "random_living_status": [
+            "living"
         ]
     },
     {
@@ -1375,7 +1403,8 @@
             "Is finding ways to rebel against the instructions {PRONOUN/m_c/subject} {verb/m_c/were/was} given",
             "Is doubting why things are done the way they are",
             "Is trying to get {PRONOUN/m_c/poss} Clanmates to doubt the way things are done",
-            "Has simply decided not to do what {PRONOUN/m_c/subject} {VERB/m_c/were/was} told"
+            "Has simply decided not to do what {PRONOUN/m_c/subject} {VERB/m_c/were/was} told",
+            "Partakes in malicious compliance"
         ],
         "main_trait_constraint": [
             "rebellious"
@@ -1401,7 +1430,8 @@
         "thoughts": [
             "Had a lengthy debate with r_c",
             "Rolled {PRONOUN/m_c/poss} eyes at a job r_c assigned {PRONOUN/m_c/object} to",
-            "Is being scolded for {PRONOUN/m_c/poss} rebellious actions"
+            "Is being scolded for {PRONOUN/m_c/poss} rebellious actions",
+            "Follows r_c's orders to the letter, not the spirit"
         ],
         "main_trait_constraint": [
             "rebellious"
