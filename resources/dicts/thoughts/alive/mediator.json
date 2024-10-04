@@ -124,6 +124,15 @@
         ]
     },
     {
+        "id": "competitive_mediator",
+        "thoughts": [
+            "Invites a pair of cats to clear the air with a bit of friendly competition"
+        ],
+        "main_trait_constraint": [
+            "competitive"
+        ]
+    },
+    {
         "id": "fierce_mediator",
         "thoughts": [
             "Is greatly annoyed by a Clanmate's inability to accept they were in the wrong",
